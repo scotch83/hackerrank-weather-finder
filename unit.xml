@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 109.0.5414 (Mac OS X 10.15.7)" package="unit" timestamp="2023-02-16T15:23:07" id="0" hostname="MacMatt.local" tests="5" errors="0" failures="0" time="0.083">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/109.0.5414.119 Safari/537.36"/>
+  </properties>
+  <testcase name="WeatherFinder Should render the Initial UI correctly" time="0.014" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Should search and render the data - 1" time="0.021" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Should show No Results Found when there are no results from API" time="0.015" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Should search and render the data - 2" time="0.015" classname=".WeatherFinder"/>
+  <testcase name="WeatherFinder Perform series of actions" time="0.018" classname=".WeatherFinder"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 109.0.5414 (Mac OS X 10.15.7) LOG: Object{name: 'Dallas', weather: '12 degree', status: ['Wind: 2Kmph', 'Humidity: 5%']}
+,HeadlessChrome 109.0.5414 (Mac OS X 10.15.7) LOG: undefined
+,HeadlessChrome 109.0.5414 (Mac OS X 10.15.7) LOG: Object{name: 'Oakland', weather: '34 degree', status: ['Wind: 21Kmph', 'Humidity: 59%']}
+,HeadlessChrome 109.0.5414 (Mac OS X 10.15.7) LOG: Object{name: 'Oakland', weather: '34 degree', status: ['Wind: 21Kmph', 'Humidity: 59%']}
+,HeadlessChrome 109.0.5414 (Mac OS X 10.15.7) LOG: undefined
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
